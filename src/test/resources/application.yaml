@@ -1,6 +1,9 @@
-cas:
-  enable: true
-  loginUrl: http://localhost:8080/login
-  prefixUrl: http://localhost
+pac4j:
+  cas:
+    enable: true
+    loginUrl: http://localhost:9082/login
+    prefixUrl: http://localhost
+  client:
+    callbackUrl:
 shiro:
   enable: true
